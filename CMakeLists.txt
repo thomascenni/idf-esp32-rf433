@@ -6,4 +6,5 @@ set(COMPONENT_SRCS
         )
 set(COMPONENT_ADD_INCLUDEDIRS "include")
 set(COMPONENT_PRIV_INCLUDEDIRS "private_include")
+set(COMPONENT_REQUIRES "driver" "esp_timer")
 register_component()
